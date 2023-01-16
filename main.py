@@ -2,9 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-from credentials import my_email
-from credentials import my_password_key
-from credentials import receiver_email
+from credentials import my_email, my_password_key, receiver_email
 
 email = my_email
 password = my_password_key
